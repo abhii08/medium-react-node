@@ -47,7 +47,7 @@ To run the project locally:
 
 #### 1. Clone the repository:
    ```bash
-   git clone https://github.com/abhii08/MEDIUM-BLOGGING.git
+   https://github.com/abhii08/medium-react-node.git
    cd MEDIUM-BLOGGING
    ```
    
