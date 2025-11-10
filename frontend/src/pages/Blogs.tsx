@@ -30,7 +30,7 @@ export const Blogs = () => {
                 authorName={blog.author.name || "Anonymous"}
                 title={blog.title}
                 content={blog.content}
-                publishedDate={"Oct 15, 2025"}
+                publishedDate={new Date(blog.publishedAt).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
                 />)}
             </div>
         </div>
